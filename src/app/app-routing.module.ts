@@ -6,7 +6,7 @@ import {PlayerEditComponent} from './player-edit/player-edit.component';
 
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'player-create' },
+  { path: '', pathMatch: 'full', redirectTo: 'player-list' },
   { path: 'player-create', component: PlayerCreateComponent },
   { path: 'player-list', component: PlayerListComponent },
   { path: 'player-edit/:id', component: PlayerEditComponent }
