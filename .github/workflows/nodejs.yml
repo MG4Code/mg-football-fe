@@ -52,5 +52,5 @@ jobs:
       run: |
         docker build . --file Dockerfile --tag docker.pkg.github.com/iMilad/mg-football-fe/mgf:1.0.0
         docker login docker.pkg.github.com -u iMilad -p ${DOCKER_AUTH_TOKEN}
-        docker push docker.pkg.github.com/iMilad/mg-football-fe/mgf:1.0.0
+        docker push docker.pkg.github.com/imilad/mg-football-fe/mgf:1.0.0
       
